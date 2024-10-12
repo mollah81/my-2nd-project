@@ -1,0 +1,536 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-sans-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.global{
+    width: 1440px;
+    background-color:rgba(17,17, 17,1.00);
+    box-sizing: border-box;
+
+}
+/* shared style */
+
+.display-flex{
+    display: flex;
+}
+.text-white{
+    color:#fff;
+}
+.bg-light{
+    background-color:black;
+}
+/*header stykes*/
+.btn-primary{
+    background-color: darkorange;
+    border-radius: 3px;
+}
+/* navbar related styles */
+.navbar{
+   text-align: center;
+   justify-content: space-between;
+   padding-right: 190px;
+   height: 80px;
+}
+ .logo{
+    font-size: 2rem;
+    color: orange;
+    padding-left: 190px;
+    font-weight: 600px;
+    height: 80px;
+    
+ }
+ #check{
+    display: none;
+}
+ .icons{
+    position: absolute;
+    font-size: 2 rem;
+    color: #fff;
+    right: 5%;
+    
+    cursor: pointer;
+    display: none;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.navbar, .banner{
+    max-width:96%;
+    margin: 0 auto;
+   
+}
+/*body-fitness$*/
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+/*fit-container style*/
+
+.banner-container{
+    width: 500px;
+    height: 440px;
+   padding-left: 190px;
+    padding-top: 170px;
+    gap: 71px;
+    }
+    .body-shape{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: left;
+}
+.italian{
+    font-weight:200 ;
+}
+.body-text{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+
+}
+.btn-primary{
+width: 150px;
+height: 40px;
+justify-content: center;
+align-items: flex-start;
+gap: 10;
+border-radius: 40px;
+margin: 0px 10px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1 rem;
+font-weight: 400px;
+background: rgb(230, 83, 60);
+
+}
+.background{
+    background: none;
+}
+.fitness-imge{
+    width: 349px;
+    height: 580px;
+    margin-right: 190px;
+    margin-top: 30px;
+    position: relative;
+  
+}
+.ball{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:orangered;
+    position: absolute;
+    left:-100px;
+    bottom:120px;
+}
+.total-tutorial{    
+width: 200px;
+height: 90px;
+left:-100px;
+bottom:100px;
+position: absolute;
+font-family: inter;
+color: rgb(255, 255, 255);
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px; 
+background: rgba(255, 255, 255, 0.1);
+}
+.total-works{
+position: absolute;
+width: 200px;
+height: 100px;
+right:-20px;
+top:100px;
+font-family: inter;
+color: rgb(255, 255, 255);
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px; 
+background: rgba(255, 255, 255, 0.1);
+}
+.bold-numbers{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.image-practice{
+    width: 340px;
+    height: 570PX;
+    border-radius: 2px ,solid rgb(255, 255, 255);
+}
+/*habits styles*/
+
+.habits{
+     width: 1440px;
+    height: 570px;   
+    background-color:rgba(17,17, 17,1.00);
+    color: rgb(255, 255, 255);
+  
+}
+.your-habits{
+    margin-left: 198px;
+    margin-right: 198px;
+    text-align: center;  
+
+}
+.your-habits-title{
+    text-align: center;
+    font-family: inter;
+    font-weight: 600px;
+    font-size: 2.5rem;
+}
+.your-habits-desc{
+    font-weight: 600px;
+}
+.habits-container{
+   width: 200px;
+    height: 250px;
+    display:flex;
+   margin-top: 100px;
+    margin-left: 198px;
+    margin-right: auto;
+gap: 70px;
+}
+.circle-image{
+width: 200px;
+height: 200px;
+justify-content: center;
+box-sizing: border-box;
+border-radius: 50%;
+   
+}  
+.image-title{
+    text-align: center;
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 1.5 rem;
+}
+.image-desc{
+    text-align: center;
+}
+/*Run styles*/
+.run{
+    width: 1066px;
+    height: 370px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 198px;
+    margin-right: 198px;
+    border-radius: 18px; 
+    background: rgb(34, 34, 34);
+
+}
+.run-container{
+    width: 440px;
+    height: 290px;
+    padding-left:60px;
+    justify-content: center;
+}
+.run-title{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2.5rem;
+font-weight: 500px;
+
+
+}
+.run-description{
+     color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1 rem;
+    font-weight: 400;
+
+    
+}
+.run-image ,img{
+    width: 350px;
+    height: 300px;
+}
+/*Our team styles*/
+.team-container{
+    height:120px;
+    text-align: center;
+}
+.team-image-container{
+    width: 1060px;
+    height:600px;
+    position: relative;
+   display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+   margin: auto;
+   border-radius: 18px; 
+   background: rgba(255, 255, 255, 0.1);
+   margin-bottom: 80px;
+   gap:10px;
+  
+}
+   .team-image-container,img{
+    box-sizing: border-box;
+   border-radius: 18px;
+   position: relative;
+   }
+   
+.text-image-n{
+    position: absolute;
+    width: 100%;
+    line-height: 1;
+  font-family: inter;
+    color: white;
+ margin-top: -3rem;
+
+ padding-left: 1rem;
+}
+.text-image-d{
+    position: absolute;
+    width: 100%;
+    line-height: 1;
+  font-family: inter;
+    color: white;
+ margin-top: -2rem;
+
+ padding-left: 1rem;
+}
+/*bottom styles*/
+.bottom{
+    width: 1440px;
+    height: 480px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.bottom-container{
+    width:1060px;
+    height: 250px;
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr;
+    margin: auto;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+   
+    padding-top: 60px;
+
+}
+.gyme-1{
+color:rgb(230, 83, 60);
+font-family: Inter;
+font-size: 2rem;
+font-weight: 500px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.divider{
+    width: 1060px;
+    height: 1px;
+    background-color: beige;
+    display: flex;
+     margin:auto;
+   justify-content: center;
+  
+}
+.bottom-description{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 40O;
+}
+/*responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, 
+    .nav-links,
+    .run,
+    .habits-container{
+        flex-direction: column;  
+    }
+    .global{
+        width: 100%;
+        height: auto;  
+        box-sizing: border-box; 
+    }
+.team-image-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.logo{
+padding-left: 2px;
+
+}
+.icons{
+    display: inline-block;
+}
+.navbar{
+    padding-right:5px;
+    width:40%;
+    text-align: left;
+}
+
+.display-flex{
+    flex-direction: column;
+}
+ .banner{
+        flex-direction: column;
+        align-items: left;
+        margin-left: 0;
+    }
+
+.banner-container{
+    width: 90%;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 0 px;
+    padding-top: 130px;
+    gap: 0px;
+  }
+  .body-shape{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 500; 
+}
+.italian{
+    font-weight:200 ;
+}
+
+.fitness-imge{
+    width: 90%;
+    height: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: relative;
+  
+}
+.total-works{
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    
+    }
+    .total-tutorial{    
+        width: 50%;
+        height: 90px;
+        left:-10px;
+       
+        }
+        .ball{
+            width: 40px;
+            height:40px;
+            left:-10px; 
+        }
+
+        .habits{
+            width: 100%; 
+            height: auto;
+       }
+       .your-habits{
+           margin-left: 0;
+           margin-right: 0;
+           text-align: center; 
+         
+       }
+       .your-habits-title{
+        font-weight: 500px;
+        font-size: 2rem;
+    }
+   
+    .habits-container{
+       width: 80%;
+        height: auto;
+        justify-content: center;
+       margin-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+    
+    .circle-image{
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 50%;  
+    } 
+  .run{
+            width: 100%;
+            height: auto;
+            margin-left: 10px;
+            margin-right: 0;
+        }
+        .run-container{
+            width: 100%;
+            height: auto;
+            padding-left:0px;
+            justify-content: center;
+           
+        }
+         .run-title{
+       
+        font-size: 2rem;
+        font-weight: 400px;
+        
+        }
+        .team-container{
+            height:auto;
+            text-align: center;
+            margin-right: 0;
+        }
+        .team-image-container{
+            width: 100%;
+            height:auto;
+            position: relative;
+           margin-bottom: 80px;
+            padding-left: 30px;
+           gap:10px;
+          
+        }
+    
+        .bottom{
+            width: 100%;
+            height:auto;
+        }
+        .bottom-container{
+            width:100%;
+            height: auto;
+            grid-template-columns: repeat(1,1fr);
+          
+            margin-bottom: 50px;
+            padding-left: 5px;
+            
+           
+            padding-top: 60px;
+        
+        }
+           
+            .divider{
+                width: 100%;
+               
+            }
+}
+
+
+      
+
+    
